@@ -1,0 +1,14 @@
+node_modules
+.env
+.env.local
+dist
+build
+*.log
+.DS_Store
+backend/.tmp
+backend/.cache
+backend/build
+scraper/.venv
+scraper/output.json
+scraper/*.json
+.scrapy
