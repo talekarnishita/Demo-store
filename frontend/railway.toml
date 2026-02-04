@@ -1,0 +1,9 @@
+# Railway config for React/Vite frontend (monorepo: set Root Directory to "frontend" in dashboard).
+# See docs/09-railway-deployment.md.
+
+[build]
+buildCommand = "npm install && npm run build"
+watchPaths = ["**"]
+
+[deploy]
+startCommand = "npm run start"

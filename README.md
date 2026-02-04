@@ -82,6 +82,7 @@ scrapy crawl example -o output.json
 | Run Strapi     | `cd backend && npm run develop` |
 | Run frontend   | `cd frontend && npm run dev`     |
 | Build (Vercel) | `cd frontend && npm run build`   |
+| Deploy (Railway) | See **docs/09-railway-deployment.md** (monorepo: backend + frontend + PostgreSQL). |
 
 ## Env
 
@@ -95,4 +96,4 @@ scrapy crawl example -o output.json
 - One task = one module. Open the relevant doc (e.g. `docs/04-modular-context-window.md`) and folder (`api/`, `context/`, etc.).
 - Doc index: **docs/00-index.md**.
 
-For payment, schema, and deployment details, see **docs/02-payment-gateway.md**, **docs/03-data-modelling-schema.md**, and **docs/06-vercel-react-strapi.md**.
+For payment, schema, and deployment details, see **docs/02-payment-gateway.md**, **docs/03-data-modelling-schema.md**, **docs/06-vercel-react-strapi.md**, and **docs/09-railway-deployment.md**.

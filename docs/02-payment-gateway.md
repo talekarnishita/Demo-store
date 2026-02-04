@@ -18,7 +18,7 @@ This project uses **Stripe** for payments. The pattern is:
 
 ## Flow (Checkout Session)
 
-1. User clicks “Pay” → frontend calls `POST /api/create-checkout-session` (or Strapi custom route).
+1. User clicks “Pay” → frontend calls `POST /api/payments/create-checkout-session` (Strapi custom route).
 2. Backend creates a Stripe Checkout Session with `stripe.checkout.sessions.create()`.
 3. Backend returns `{ url: session.url }`.
 4. Frontend redirects: `window.location.href = url`.
